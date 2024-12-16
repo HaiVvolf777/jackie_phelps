@@ -8,9 +8,9 @@ const MyServices = () => {
 
     return (
         <>
-            <div className='bg-[#39648C]'>
+            <div className='bg-[#39648C] px-4'>
                 <div className='container mx-auto py-[200px]'>
-                    <div className='grid grid-cols-1 lg:grid-cols-3 gap-x-20 items-center'>
+                    <div className='flex flex-col lg:grid lg:grid-cols-3 gap-x-20 items-center'>
                         <div className="col-span-2">
                             <h1 className="font-semibold text-4xl mb-[38px]">
                             Jacki Phelps: Advocate, Educator, and Legal Trailblazer

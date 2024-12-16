@@ -33,7 +33,7 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className={`pt-[0.5vw] fixed top-0 z-50 w-full ${isScrolled ? 'bg-[#7C98B1]' : 'bg-transparent'}`}>
+        <nav className={`pt-[0.5vw] fixed top-0  z-50 w-full ${isScrolled ? 'bg-[#7C98B1]' : 'bg-transparent'}`}>
             <div className="container mx-auto px-[30px] flex justify-between items-center h-20 w-full">
                 <Link to="/" className="flex-shrink-0 flex items-center z-10 gap-x-2">
                     <img src="/logo.svg" alt="Logo" className="w-[100px]" />
@@ -72,7 +72,7 @@ const Navbar = () => {
             </div>
 
             {isOpenMenu && (
-                <div className="lg:hidden bg-[#0E1527] fixed inset-0 z-40 flex flex-col items-center space-y-4 pt-5">
+                <div className="lg:hidden bg-[#0E1527] fixed inset-0 z-40 flex px-8 py-12 flex-col items-center space-y-4 ">
                     {['home', 'about', 'services', 'contact'].map(item => (
                         <Link
                             to={`/${item}`}
@@ -83,7 +83,7 @@ const Navbar = () => {
                             {item.charAt(0).toUpperCase() + item.slice(1)}
                         </Link>
                     ))}
-                    <Link to="/appointment" className="w-full text-center bg-[#39648C] text-white px-4 py-2 rounded-md hover:scale-105 transition-all duration-300">
+                    <Link to="/appointment" onClick={handleLinkClick} className="w-full text-center bg-[#39648C] text-white px-4 py-2 rounded-md hover:scale-105 transition-all duration-300">
                         Book an Appointment
                     </Link>
                 </div>

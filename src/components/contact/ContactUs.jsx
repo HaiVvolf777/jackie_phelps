@@ -30,28 +30,27 @@ const ContactForm = () => {
     <>
       <div className="py-32 container mx-auto px-4 bg-[#39648C] my-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <div className="flex flex-col items-start">
-            <h1 className="text-[#999696] text-[18px] font-semibold mb-4">
-              Get in Touch
-            </h1>
-            <h3 className="text-[28px] lg:text-[50px] font-semibold text-white mb-6">
-              Do you have a project in mind?
-            </h3>
-            <div className="space-y-4">
-              <div className="flex items-center space-x-3 text-[#999696]">
-                <span>📞</span>
-                <p>+92 330 1230437</p>
-              </div>
-              <div className="flex items-center space-x-3 text-[#999696]">
-                <span>✉️</span>
-                <a href="mailto:info@example.com">info@example.com</a>
-              </div>
+          <div className="flex flex-col items-start justify-center px-4  lg:px-44">
+            <div className="flex items-center space-x-3 text-[#ffff] text-base lg:text-xl" >
+              <span>EMAIL</span>
+              <a href="mailto:info@jackiphelps.com">info@jackiphelps.com</a>
             </div>
+            <div className="flex items-center my-[50px] space-x-3 text-[#ffff] text-base lg:text-xl">
+              <span>PHONE</span>
+              <p>405-200-3125</p>
+            </div>
+            <div className="flex items-start space-x-3 text-[#ffff] text-base lg:text-xl">
+              <p>ADDRESS PO Box 720183
+              Oklahoma City, OK 73172</p>
+
+            </div>
+
+
           </div>
 
           <div className="flex flex-col">
-            <form className="space-y-6" onSubmit={handleSubmit}>
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <form className="space-y-6 px-4" onSubmit={handleSubmit}>
+              <div className="grid grid-cols-1 gap-6">
                 <div className="flex flex-col">
                   <label htmlFor="firstName" className="text-white mb-1">
                     First Name*
@@ -59,8 +58,7 @@ const ContactForm = () => {
                   <input
                     type="text"
                     id="firstName"
-                    className="border border-[#FFFFFF3D] p-3 rounded-lg bg-transparent text-white"
-                    placeholder="Enter your first name"
+                    className="border-b border-[#ffffff] p-3 bg-transparent text-white"
                     value={formData.firstName}
                     onChange={handleChange}
                     required
@@ -74,8 +72,7 @@ const ContactForm = () => {
                   <input
                     type="text"
                     id="lastName"
-                    className="border border-[#FFFFFF3D] p-3 rounded-lg bg-transparent text-white"
-                    placeholder="Enter your last name"
+                    className="border-b border-[#ffffff] p-3 bg-transparent text-white"
                     value={formData.lastName}
                     onChange={handleChange}
                     required
@@ -90,8 +87,7 @@ const ContactForm = () => {
                 <input
                   type="tel"
                   id="phoneNumber"
-                  className="border border-[#FFFFFF3D] p-3 rounded-lg bg-transparent text-white"
-                  placeholder="Enter your phone number"
+                  className="border-b border-[#ffffff] p-3 bg-transparent text-white"
                   value={formData.phoneNumber}
                   onChange={handleChange}
                   required
@@ -105,8 +101,7 @@ const ContactForm = () => {
                 <input
                   type="email"
                   id="email"
-                  className="border border-[#FFFFFF3D] p-3 rounded-lg bg-transparent text-white"
-                  placeholder="Enter your email"
+                  className="border-b border-[#ffffff] p-3 bg-transparent text-white"
                   value={formData.email}
                   onChange={handleChange}
                   required
@@ -119,9 +114,8 @@ const ContactForm = () => {
                 </label>
                 <textarea
                   id="message"
-                  className="border border-[#FFFFFF3D] p-3 rounded-lg bg-transparent text-white"
-                  placeholder="Write your message here"
-                  rows="4"
+                  className="border-b border-[#ffffff] p-3 bg-transparent text-white"
+                  rows="1"
                   value={formData.message}
                   onChange={handleChange}
                   required
@@ -131,9 +125,9 @@ const ContactForm = () => {
               <div className="flex items-center justify-center lg:justify-start">
                 <button
                   type="submit"
-                  className="gradientButton text-white px-6 py-3 rounded-lg transition-all"
+                  className="bg-white text-black px-6 py-3 "
                 >
-                  Send Message →
+                  Submit
                 </button>
               </div>
             </form>

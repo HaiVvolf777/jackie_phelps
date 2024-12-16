@@ -8,7 +8,7 @@ const Services = () => {
         {
             img: '/icons/Life Cycle.svg',
             heading: 'Federal Criminal Appeals:',
-            paragraph: 'Fighting for second chances and freedom for those unjustly sentenced to life in federal prison.',
+            paragraph: 'Fighting unjust fedral convictions and sentances, we craft powerful, persuasive appeals to secure the justice you deserve.',
         },
 
         {
