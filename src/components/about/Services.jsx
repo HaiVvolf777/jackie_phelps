@@ -13,31 +13,31 @@ const Services = () => {
 
         {
 
-            img: '/public/icons/Non Profit Organisation.svg',
+            img: '/icons/Non Profit Organisation.svg',
             heading: 'Non-Violent Drug Offense Defense:',
             paragraph: 'Challenging sentencing disparities to ensure fair treatment under the law.',
         },
 
         {
-            img: '/public/icons/Mind Map.svg',
+            img: '/icons/Mind Map.svg',
             heading: 'Sentencing Disparities Representation:',
             paragraph: 'Addressing systemic inequities in criminal sentencing.',
         },
 
         {
-            img: '/public/icons/Colorado State Capitol.svg',
+            img: '/icons/Colorado State Capitol.svg',
             heading: 'Federal & State Clemency Applications:',
             paragraph: 'Advocating for mercy and justice through clemency petitions.',
         },
 
         {
-            img: '/public/icons/Upgrade.svg',
+            img: '/icons/Upgrade.svg',
             heading: 'Compassionate Release Motions:',
             paragraph: 'Securing early release for individuals with compelling circumstances.',
         },
 
         {
-            img: '/public/icons/Post Stamp.svg',
+            img: '/icons/Post Stamp.svg',
             heading: 'Post-Conviction Litigation:',
             paragraph: '  Strategically navigating complex cases to achieve favorable outcomes. ',
         }

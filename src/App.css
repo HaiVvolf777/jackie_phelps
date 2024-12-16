@@ -67,6 +67,7 @@
 body {
   font-family: 'Copperplate Gothic', sans-serif;
   color: white;
+  scroll-behavior: smooth;
 }
 
 
