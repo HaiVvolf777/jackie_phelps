@@ -18,7 +18,7 @@ const Footer = () => {
                             <Link to="/about">About</Link>
                             <Link to="/services">Services</Link>
                             <Link to="/contact">Contact</Link>
-                            <Link to="/consultation">Book your consultation</Link>
+                            <Link to="/appointment">Book your consultation</Link>
                         </div>
 
                         <div className="border-t-[1px] border-white">
