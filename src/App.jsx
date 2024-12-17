@@ -6,6 +6,8 @@ import Service from "./pages/Service";
 import Contact from "./pages/Contact";
 import Footer from "./components/layout/Footer";
 import BookAppointment from "./pages/BookAppointment";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfUse from "./pages/TermOfUse";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path="/services" element={<Service />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/appointment" element={<BookAppointment />} />
+          <Route path='/privacy' element={<PrivacyPolicy/>} />
+          <Route path='/terms' element={<TermsOfUse/>} />
         </Routes>
         <Footer />
     </BrowserRouter>

@@ -77,10 +77,41 @@ html {
 
 .bg-home {
   background-position: bottom;
+  background-image: url(/src/assets/backgrounds/new.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-justice {
+  background-position: bottom;
   background-image: url(/src/assets/backgrounds/home.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.bg-advocacy {
+  background-position: bottom;
+  background-image: url(/src/assets/backgrounds/about.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.bg-heart {
+  background-position: bottom;
+  background-image: url(/src/assets/backgrounds/appointment.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-power {
+  background-position: bottom;
+  background-image: url(/src/assets/backgrounds/service.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 
 .bg-about {
   background-position: bottom;
