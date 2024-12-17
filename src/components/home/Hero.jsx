@@ -28,7 +28,7 @@ const Hero = () => {
     const [backgroundClass, setBackgroundClass] = useState(defaultBackgroundClass);
 
     const handleMouseEnter = (word) => {
-        setBackgroundClass(`bg-${word.toLowerCase()} transition-all duration-500`);
+        setBackgroundClass(`bg-${word.toLowerCase()} transition-all duration-1000`);
     };
 
     const handleMouseLeave = () => {
