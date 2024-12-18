@@ -25,10 +25,10 @@ const Press = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 text-white text-center">
           {pressItems.map((item) => (
             <>
-              <h1 key={item.id} className="bg-[#39648C] p-8 gap-y-4 flex flex-col items-center">
+              <h1 key={item.id} className="bg-[#39648C] font-neue p-8 gap-y-4 flex flex-col items-center">
                 {item.content}
-                <a href={item.link} target="_blank" className="flex gap-x-1 items-center">
-                Link <IoIosArrowRoundForward />
+                <a href={item.link} target="_blank" className="flex font-copperplate gap-x-1 items-center">
+                Read More <IoIosArrowRoundForward />
               </a>
               </h1>
           

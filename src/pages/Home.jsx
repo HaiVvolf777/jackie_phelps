@@ -16,10 +16,10 @@ const Home = () => {
             <Approach />
             <div className='container mx-auto py-12'>
 
-                <div className='hidden lg:flex justify-end text-black'>
-                    {/* <Link to='/' className='flex gap-2 items-center'>
+                <div className='hidden lg:flex justify-between text-black'>
+                    <Link to='/' className='flex gap-2 items-center'>
                         <FaChevronLeft /> {" "}  HOME
-                    </Link> */}
+                    </Link>
                     <Link to='/about' className='flex gap-2 items-start'>
                         ADVOCACY {" "} <FaChevronRight />
                     </Link>

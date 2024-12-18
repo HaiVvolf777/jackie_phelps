@@ -6,7 +6,7 @@ const Hero = () => {
 
     // Backgrounds based on path
     const backgrounds = {
-        '/': 'bg-home',
+        '/home': 'bg-justice',
         '/about': 'bg-about',
         '/services': 'bg-service',
         '/contact': 'bg-contact',

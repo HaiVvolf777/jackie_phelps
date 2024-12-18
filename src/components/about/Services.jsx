@@ -48,13 +48,13 @@ const Services = () => {
         <div className="pb-8 px-4">
             <div className="container mx-auto text-white relative">
                 <div className="px-4 ">
-                    <h2 className="text-[32px] pt-8 pb-4 text-[#39648C] uppercase text-center">
+                    <h2 className="text-[42px] pt-24 font-bold pb-4 text-[#39648C] uppercase text-center">
                         Core Services Include
                     </h2>{" "}
                 </div>
 
                 <div
-                    className="grid grid-cols-1 lg:grid-cols-3 relative gap-x-8 gap-y-24 px-4 pt-8 sm:pt-20 text-black">
+                    className="grid grid-cols-1 lg:grid-cols-3 relative gap-x-20 gap-y-24 px-4 pt-8 sm:pt-20 text-black">
 
 
                     {
@@ -64,14 +64,14 @@ const Services = () => {
                                     className="border border-[#39648C]  shadow-2xl  transform transition duration-500 hover:scale-110">
                                     <div className="px-3 lg:px-8 py-8  ">
                                         <div
-                                            className="w-[122px] h-[122px] bg-[#8CA6BD]  rounded-full mt-[-5rem]  flex items-center mx-auto p-4">
+                                            className="w-[106px] h-[106px] bg-[#8CA6BD]  rounded-full mt-[-5rem]  flex items-center mx-auto p-4">
                                             <img src={service.img} alt=""
-                                                className="w-[60px] h-[60px] object-contain      mx-auto" />
+                                                className="w-[60px] h-[60px] object-contain  mx-auto" />
                                         </div>
                                         <h3 className="font-bold text-[20px] text-[#39648C] text-center my-6">
                                             {service.heading}
                                         </h3>
-                                        <p className="text-[#444444] text-[16px] text-center">
+                                        <p className="text-[#444444] text-[16px] text-center font-neue">
                                             {service.paragraph}
                                         </p>
                                     </div>

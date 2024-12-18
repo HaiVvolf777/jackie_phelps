@@ -8,6 +8,7 @@ import Footer from "./components/layout/Footer";
 import BookAppointment from "./pages/BookAppointment";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermOfUse";
+import Page from "./pages/Page";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Navbar />
 
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Page />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Service />} />

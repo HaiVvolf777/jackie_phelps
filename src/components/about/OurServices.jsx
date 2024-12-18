@@ -19,7 +19,7 @@ const OurServices = () => {
                             </h1>
                             {/* Render each paragraph using map */}
                             {paragraphs.map((paragraph, index) => (
-                                <p key={index} className="text-xl mb-4">
+                                <p key={index} className="text-lg mb-4 font-neue">
                                     {paragraph}
                                 </p>
                             ))}

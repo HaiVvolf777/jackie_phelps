@@ -49,7 +49,7 @@ const ContactForm = () => {
           </div>
 
           <div className="flex flex-col">
-            <form className="space-y-6 px-4" onSubmit={handleSubmit}>
+            <form className="space-y-6 px-4 font-neue" onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 gap-6">
                 <div className="flex flex-col">
                   <label htmlFor="firstName" className="text-white mb-1">

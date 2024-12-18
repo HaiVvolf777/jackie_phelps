@@ -32,21 +32,21 @@ function Approach() {
             <div className="px-4 mb-16">
 
                 <h1 className="text-3xl lg:text-6xl text-[#39648C] font-bold">OUR APPROACH</h1>
-                <p className="text-base lg:text-xl text-[#39648C] font-normal w-full lg:w-[45%] mt-[40px]">
+                <p className="text-base font-neue lg:text-lg text-[#39648C] font-normal w-full lg:w-[45%] mt-[40px]">
                     At Jacki Phelps Law, we believe that justice isn’t just about winning cases; it’s about changing lives. Our approach is rooted in:
                 </p>
             </div>
 
-            <div className="grid grid-cols-1  lg:grid-cols-3 2xl:grid-cols-4 gap-x-10 gap-y-8 px-4">
+            <div className="grid grid-cols-1 2xl:grid-cols-4 gap-x-10 gap-y-8 px-4">
                 {updates.map((feature, index) => (
                     <div key={index}>
-                        <div className="h-[100%] flex flex-col items-start gap-y-4 gap-x-12  border border-[#39648C] py-[8px] lg:py-[26px] px-[10px] lg:px-[53px]">
+                        <div className="h-[100%] flex flex-col items-start gap-y-6 gap-x-4  border border-[#39648C] py-[8px] lg:py-[26px] px-[10px] lg:px-[20px]">
                             <div className="mb-2"><img src={feature.image} alt="" className="bg-[#8CA6BD1A] p-4" /></div>
-                            <p className="font-semibold text-[#39648C] text-2xl text-start ">
+                            <p className="font-semibold text-[#39648C] text-lg text-start ">
                                 {feature.description}
 
                             </p>
-                            <p className=" text-[#444444] text-[16px]">{feature.detail}</p>
+                            <p className=" text-[#444444] text-base font-neue">{feature.detail}</p>
                         </div>
                     </div>
                 ))}

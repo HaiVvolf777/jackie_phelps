@@ -11,13 +11,13 @@ const Schedule = () => {
                         <h2 className="text-[#39648C] text-2xl mb-8">
                             Take the First Step Toward Justice
                         </h2>
-                        <p className="mb-8">
+                        <p className="mb-8 font-neue">
                             At Jacki Phelps Law, we understand that navigating the legal system can be overwhelming. Whether you’re seeking post-conviction relief, clemency, or representation for a loved one, we’re here to provide clarity, guidance, and hope.
                         </p>
-                        <h2 className="text-[#39648C] text-2xl mb-8">
+                        <h2 className="text-[#39648C] text-2xl mb-8 font-medium">
                             Our consultation process is designed to:
                         </h2>
-                        <ul className="mb-8 text-base">
+                        <ul className="mb-8 text-base font-neue">
                             <li>
                                 Understand your unique story and legal needs.
                             </li>
@@ -32,7 +32,7 @@ const Schedule = () => {
                             How It Works
                         </h1>
 
-                        <ul className="mb-8 text-base">
+                        <ul className="mb-8 text-base font-neue">
                             <li>
                                 <strong>1. Initial Consultation:</strong>
                                 Book a 60-minute consultation to discuss your case and legal goals.
@@ -50,7 +50,7 @@ const Schedule = () => {
                         <h2 className="text-[#39648C] text-2xl mb-8">
                             Consultation Fee:
                         </h2>
-                        <p className="mb-8">
+                        <p className="mb-8 font-neue">
                             $200 (applied toward your retainer if you choose to move forward with our services).
                         </p>
                     </div>

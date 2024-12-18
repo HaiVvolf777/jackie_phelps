@@ -12,12 +12,12 @@ const MyServices = () => {
                 <div className='container mx-auto py-[200px]'>
                     <div className='flex flex-col lg:grid lg:grid-cols-3 gap-x-20 items-center'>
                         <div className="col-span-2">
-                            <h1 className="font-semibold text-4xl mb-[38px]">
+                            <h1 className="font-semibold text-5xl mb-[38px]">
                             Jacki Phelps: Advocate, Educator, and Legal Trailblazer
                             </h1>
                             {/* Render each paragraph using map */}
                             {paragraphs.map((paragraph, index) => (
-                                <p key={index} className="text-lg mb-4">
+                                <p key={index} className="text-lg mb-4 font-neue">
                                     {paragraph}
                                 </p>
                             ))}

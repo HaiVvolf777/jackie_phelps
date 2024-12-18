@@ -16,7 +16,7 @@ const Mission = () => {
                                 OUR MISSION
                             </h1>
                             {paragraphs.map((paragraph, index) => (
-                                <p key={index} className="text-base lg:text-xl mb-4">
+                                <p key={index} className="text-base lg:text-lg mb-4 font-neue">
                                     {paragraph}
                                 </p>
                             ))}
