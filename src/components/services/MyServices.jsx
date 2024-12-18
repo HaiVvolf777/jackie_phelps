@@ -10,20 +10,20 @@ const MyServices = () => {
         <>
             <div className='bg-[#39648C] px-4'>
                 <div className='container mx-auto py-[200px]'>
-                    <div className='flex flex-col lg:grid lg:grid-cols-3 gap-x-20 items-center'>
-                        <div className="col-span-2">
-                            <h1 className="font-semibold text-5xl mb-[38px]">
+                    <div className='flex flex-col lg:grid lg:grid-cols-5 gap-x-20 items-center'>
+                        <div className="col-span-3">
+                            <h1 className="font-medium text-2xl lg:text-3xl mb-[38px]">
                             Jacki Phelps: Advocate, Educator, and Legal Trailblazer
                             </h1>
                             {/* Render each paragraph using map */}
                             {paragraphs.map((paragraph, index) => (
-                                <p key={index} className="text-lg mb-4 font-neue">
+                                <p key={index} className="text-sm mb-4 font-neue">
                                     {paragraph}
                                 </p>
                             ))}
                         </div>
-                        <div className="col-span-1">
-                            <img src='/jackie_phelps.png' alt='Jackie Phelps' />
+                        <div className=" col-span-2">
+                            <img src='/jackie_phelps.png' alt='Jackie Phelps'  />
                         </div>
                     </div>
                 </div>

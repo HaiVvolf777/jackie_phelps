@@ -16,18 +16,18 @@ const pressItems = [
 const Press = () => {
   return (
     <>
-      <div className="container mx-auto py-[200px] px-4">
+      <div className="container mx-auto py-[100px] px-4">
         <div>
-          <h1 className="text-[#39648C] text-6xl lg:text-8xl font-bold mb-12">
+          <h1 className="text-[#39648C] font-medium text-3xl lg:text-5xl mb-12">
             Press
           </h1>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 text-white text-center">
           {pressItems.map((item) => (
             <>
-              <h1 key={item.id} className="bg-[#39648C] font-neue p-8 gap-y-4 flex flex-col items-center">
+              <h1 key={item.id} className="bg-[#39648C] font-neue p-8 gap-y-4 text-sm flex flex-col items-center">
                 {item.content}
-                <a href={item.link} target="_blank" className="flex font-copperplate gap-x-1 items-center">
+                <a href={item.link} target="_blank" className="flex font-copperplate font-light border-b border-white pb-1  gap-x-1 items-center">
                 Read More <IoIosArrowRoundForward />
               </a>
               </h1>

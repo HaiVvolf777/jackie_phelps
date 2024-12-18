@@ -15,7 +15,7 @@ const Footer = () => {
                     </Link>
 
                     <div className="col-span-5">
-                        <div className="flex flex-col lg:flex-row justify-around items-center gap-4 pb-[40px] px-4 lg:px-32 text-xl">
+                        <div className="flex flex-col lg:flex-row justify-around items-center gap-4 pb-[40px] px-4 lg:px-32 text-base">
                             <Link to="/">Home</Link>
                             <Link to="/about">About</Link>
                             <Link to="/services">Services</Link>

@@ -44,7 +44,7 @@ const Hero = () => {
                             <Link
                                 key={index}
                                 to={link}
-                                className="text-3xl lg:text-7xl mb-[35px] cursor-pointer "
+                                className="text-3xl lg:text-7xl mb-[35px] font-light cursor-pointer "
                                 onMouseEnter={() => handleMouseEnter(word)}
                                 onMouseLeave={handleMouseLeave}
                             >

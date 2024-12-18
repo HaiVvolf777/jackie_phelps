@@ -1,30 +1,34 @@
-import { Link } from 'react-router-dom'
+import Services from '../components/about/Services'
 import Hero from '../components/home/Hero'
-import MyServices from '../components/services/MyServices'
+import OurServices from '../components/about/OurServices'
+import Press from '../components/about/Press'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
 
-const Service = () => {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-      }, []);
+const Serivce = () => {
+      useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
     return (
         <>
             <Hero />
-            <MyServices />
+            <OurServices />
+            <Services />
+            <Press />
             <div className='container mx-auto py-12'>
 
-<div className='hidden lg:flex justify-between text-black'>
-    <Link to='/about' className='flex gap-2 items-start'>
-        <FaChevronLeft /> {" "}  Advocacy
-    </Link>
-    <Link to='/appointment' className='flex gap-2 items-start'>
-        Heart {" "} <FaChevronRight />
-    </Link>
-</div>
-</div>
+                <div className='hidden lg:flex justify-between text-black'>
+                    <Link to='/about' className='flex gap-2 items-center'>
+                        <FaChevronLeft /> {" "}  Advocacy
+                    </Link>
+                    <Link to='/appointment' className='flex gap-2 items-center'>
+                        Heart {" "} <FaChevronRight />
+                    </Link>
+                </div>
+            </div>
         </>
     )
 }
 
-export default Service
+export default Serivce

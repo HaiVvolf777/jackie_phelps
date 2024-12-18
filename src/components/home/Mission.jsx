@@ -9,14 +9,14 @@ const Mission = () => {
     return (
         <>
             <div className='bg-[#39648C] px-4'>
-                <div className='container mx-auto py-[200px]'>
+                <div className='container mx-auto py-[100px]'>
                     <div className='grid grid-cols-1 lg:grid-cols-2 gap-x-20 items-center'>
                         <div>
-                            <h1 className="font-semibold text-3xl lg:text-6xl mb-[38px]">
+                            <h1 className="font-medium text-3xl lg:text-5xl mb-[38px]">
                                 OUR MISSION
                             </h1>
                             {paragraphs.map((paragraph, index) => (
-                                <p key={index} className="text-base lg:text-lg mb-4 font-neue">
+                                <p key={index} className="text-sm lg:text-sm mb-4 font-neue">
                                     {paragraph}
                                 </p>
                             ))}

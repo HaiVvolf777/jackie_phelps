@@ -30,7 +30,7 @@ const ContactForm = () => {
     <>
       <div className="py-32 container mx-auto px-4 bg-[#39648C] my-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <div className="flex flex-col items-start justify-center px-4  lg:px-44">
+          <div className="flex flex-col items-start justify-center px-4  lg:px-32">
             <div className="flex items-center space-x-3 text-[#ffff] text-base lg:text-xl" >
               <span>EMAIL</span>
               <a href="mailto:info@jackiphelps.com">info@jackiphelps.com</a>

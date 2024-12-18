@@ -8,7 +8,7 @@ const Services = () => {
         {
             img: '/icons/Life Cycle.svg',
             heading: 'Federal Criminal Appeals:',
-            paragraph: 'Fighting unjust fedral convictions and sentances, we craft powerful, persuasive appeals to secure the justice you deserve.',
+            paragraph: 'Fighting for second chances and freedom for those unjustly sentenced to life in federal prison.',
         },
 
         {
@@ -48,13 +48,13 @@ const Services = () => {
         <div className="pb-8 px-4">
             <div className="container mx-auto text-white relative">
                 <div className="px-4 ">
-                    <h2 className="text-[42px] pt-24 font-bold pb-4 text-[#39648C] uppercase text-center">
+                    <h2 className="font-medium text-3xl lg:text-4xl pt-24  pb-4 text-[#39648C] uppercase text-center">
                         Core Services Include
                     </h2>{" "}
                 </div>
 
                 <div
-                    className="grid grid-cols-1 lg:grid-cols-3 relative gap-x-20 gap-y-24 px-4 pt-8 sm:pt-20 text-black">
+                    className="grid grid-cols-1 lg:grid-cols-3 relative gap-x-10 gap-y-24 px-4 pt-8 sm:pt-20 text-black">
 
 
                     {
@@ -68,10 +68,10 @@ const Services = () => {
                                             <img src={service.img} alt=""
                                                 className="w-[60px] h-[60px] object-contain  mx-auto" />
                                         </div>
-                                        <h3 className="font-bold text-[20px] text-[#39648C] text-center my-6">
+                                        <h3 className="font-bold text-[18px] px-12 text-[#39648C] text-center my-6">
                                             {service.heading}
                                         </h3>
-                                        <p className="text-[#444444] text-[16px] text-center font-neue">
+                                        <p className="text-[#444444] text-[14px] px-5 text-center font-neue">
                                             {service.paragraph}
                                         </p>
                                     </div>

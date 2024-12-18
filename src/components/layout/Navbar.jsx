@@ -41,7 +41,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-[30px] flex justify-between items-center h-20 w-full">
         <Link to="/" className="flex-shrink-0 flex items-center z-10 gap-x-2">
-          <img src="/logo.svg" alt="Logo" className="w-[100px]" />
+          <img src="/logo.svg" alt="Logo" className="w-[170px]" />
         </Link>
 
         <div className="hidden lg:flex items-center space-x-4">
@@ -51,7 +51,7 @@ const Navbar = () => {
               className={
                 location.hash.includes(section)
                   ? "px-3 py-2 select-none text-[#fff] font-medium transition-colors duration-300"
-                  : "px-3 py-2 select-none text-[#39648C] font-medium hover:text-[#fff] transition-colors duration-300"
+                  : "px-3 py-2 select-none text-[#39648C] font-normal hover:text-[#fff] transition-colors duration-300"
               }
               key={section}
               onClick={handleLinkClick}
@@ -70,7 +70,7 @@ const Navbar = () => {
               });
             }}
           >
-            Book an Consultation
+          Book your consultation
           </a>
         </div>
 
