@@ -20,7 +20,7 @@ const Home = () => {
                     <Link to='/' className='flex gap-2 items-center'>
                         <FaChevronLeft /> {" "}  HOME
                     </Link>
-                    <Link to='/about' className='flex gap-2 items-center'>
+                    <Link to='/services' className='flex gap-2 items-center'>
                         ADVOCACY {" "} <FaChevronRight />
                     </Link>
                 </div>

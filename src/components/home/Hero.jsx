@@ -20,8 +20,8 @@ const Hero = () => {
         ? [{ word: 'CONTACT US', link: '/contact' }]
         : [
             { word: 'JUSTICE', link: '/home' },
-            { word: 'ADVOCACY', link: '/about' },
-            { word: 'POWER', link: '/services' },
+            { word: 'ADVOCACY', link: '/services' },
+            { word: 'POWER', link: '/about' },
             { word: 'HEART', link: '/appointment' },
         ];
 

@@ -19,11 +19,11 @@ const BookAppointment = () => {
       <div className='container mx-auto py-12'>
 
 <div className='hidden lg:flex justify-between text-black'>
-    <Link to='/services' className='flex gap-2 items-center'>
-        <FaChevronLeft /> {" "}  Power
+    <Link to='/about' className='flex gap-2 items-center'>
+        <FaChevronLeft /> {" "}  POWER
     </Link>
     <Link to='/contact' className='flex gap-2 items-center'>
-        Contact {" "} <FaChevronRight />
+        CONTACT {" "} <FaChevronRight />
     </Link>
 </div>
 </div>

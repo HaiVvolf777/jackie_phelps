@@ -3,11 +3,6 @@
 @tailwind utilities;
 
 /* Copperplate Gothic Standard AB and BC fonts */
-@font-face {
-  font-family: 'Copperplate Gothic';
-  src: url('./assets/fonts/Copperplate-Gothic-Std-29-AB.ttf') format('truetype');
-  font-weight: 400; /* Normal weight */
-}
 
 
 @font-face  {
@@ -37,60 +32,58 @@
 }
 
 
+/* @font-face {
+  font-family: 'Copperplate Gothic';
+  src: url('./assets/fonts/Copperplate-Gothic-Std-29-AB.ttf') format('truetype');
+  font-weight: 400;
+} */
 
-@font-face {
+/* @font-face {
   font-family: 'Copperplate Gothic';
   src: url('./assets/fonts/Copperplate-Gothic-Std-29-BC.ttf') format('truetype');
-  font-weight: 600; /* Semi-bold weight */
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: 'Copperplate Gothic';
   src: url('./assets/fonts/Copperplate-Gothic-Std-30-AB.ttf') format('truetype');
-  font-weight: 400;
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: 'Copperplate Gothic';
   src: url('./assets/fonts/Copperplate-Gothic-Std-30-BC.ttf') format('truetype');
-  font-weight: 600;
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: 'Copperplate Gothic';
   src: url('./assets/fonts/Copperplate-Gothic-Std-31-AB.ttf') format('truetype');
   font-weight: 400;
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: 'Copperplate Gothic';
   src: url('./assets/fonts/Copperplate-Gothic-Std-31-BC.ttf') format('truetype');
-  font-weight: 600;
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: 'Copperplate Gothic';
   src: url('./assets/fonts/Copperplate-Gothic-Std-32-AB.ttf') format('truetype');
-  font-weight: 300;
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: 'Copperplate Gothic';
   src: url('./assets/fonts/Copperplate-Gothic-Std-32-BC.ttf') format('truetype');
-  font-weight: 600;
-}
+} */
 
 @font-face {
   font-family: 'Copperplate Gothic';
   src: url('./assets/fonts/Copperplate-Gothic-Std-33-AB.ttf') format('truetype');
-  font-weight: 400;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Copperplate Gothic';
   src: url('./assets/fonts/Copperplate-Gothic-Std-33-BC.ttf') format('truetype');
   font-weight: 600;
-}
+} */
 
 /* Applying the font to the body element or other elements as needed */
 body {

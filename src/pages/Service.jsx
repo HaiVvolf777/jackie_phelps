@@ -19,11 +19,11 @@ const Serivce = () => {
             <div className='container mx-auto py-12'>
 
                 <div className='hidden lg:flex justify-between text-black'>
-                    <Link to='/about' className='flex gap-2 items-center'>
-                        <FaChevronLeft /> {" "}  Advocacy
+                    <Link to='/home' className='flex gap-2 items-center'>
+                        <FaChevronLeft /> {" "}  JUSTICE
                     </Link>
                     <Link to='/appointment' className='flex gap-2 items-center'>
-                        Heart {" "} <FaChevronRight />
+                        POWER {" "} <FaChevronRight />
                     </Link>
                 </div>
             </div>
