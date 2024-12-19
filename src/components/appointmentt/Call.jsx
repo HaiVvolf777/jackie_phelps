@@ -15,14 +15,9 @@ const Call = () => {
           </p>
 
           <a
-            href="#"
+            href="https://calendly.com/jackiphelps"
+            target="_blank"
             className="border-b border-black text-2xl text-black"
-            onClick={(e) => {
-              e.preventDefault(); // Prevent default anchor behavior
-              Calendly.initPopupWidget({
-                url: "https://calendly.com/haider-galixo",
-              });
-            }}
           >
             Book Now →
           </a>

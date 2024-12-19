@@ -32,15 +32,15 @@ const ContactForm = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="flex flex-col items-start justify-center px-4 pl-0 lg:pl-16 pr-0 lg:pr-40 font-bold font-copperplate">
             <div className="flex items-center space-x-3 text-[#ffff] text-base lg:text-xl" >
-              <span>Email</span>
+              <span>Email:</span>
               <a href="mailto:info@jackiphelps.com">info@jackiphelps.com</a>
             </div>
             <div className="flex items-center my-[50px] space-x-3 text-[#ffff] text-base lg:text-xl">
-              <span>Phone</span>
+              <span>Phone:</span>
               <p>405-200-3125</p>
             </div>
             <div className="flex items-start space-x-3 text-[#ffff] text-base lg:text-xl">
-              <p>Address PO Box 720183
+              <p>Address: PO Box 720183
               Oklahoma City, OK 73172</p>
 
             </div>

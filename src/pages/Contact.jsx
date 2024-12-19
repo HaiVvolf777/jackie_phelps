@@ -15,7 +15,7 @@ const Contact = () => {
 <div className='container mx-auto py-12'>
 
 <div className='hidden lg:flex justify-between text-black'>
-    <Link to='/appointment' className='flex gap-2 items-center'>
+    <Link to='/appointment' className='flex gap-2 items-center tracking-[1px]'>
         <FaChevronLeft /> {" "}  Heart
     </Link>
 

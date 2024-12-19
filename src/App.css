@@ -102,6 +102,7 @@ html {
   background-image: url(/src/assets/backgrounds/new.png);
   background-repeat: no-repeat;
   background-size: cover;
+  filter: brightness(85%)
 }
 
 .bg-justice {
@@ -109,6 +110,7 @@ html {
   background-image: url(/src/assets/backgrounds/home.png);
   background-repeat: no-repeat;
   background-size: cover;
+  filter: brightness(85%)
 }
 
 .bg-advocacy {
@@ -116,6 +118,7 @@ html {
   background-image: url(/src/assets/backgrounds/about.png);
   background-repeat: no-repeat;
   background-size: cover;
+  filter: brightness(85%)
 }
 
 
@@ -124,6 +127,7 @@ html {
   background-image: url(/src/assets/backgrounds/appointment.png);
   background-repeat: no-repeat;
   background-size: cover;
+  filter: brightness(85%)
 }
 
 .bg-power {
@@ -131,6 +135,7 @@ html {
   background-image: url(/src/assets/backgrounds/service.png);
   background-repeat: no-repeat;
   background-size: cover;
+  filter: brightness(85%)
 }
 
 
@@ -140,6 +145,7 @@ html {
   background-image: url(/src/assets/backgrounds/about.png);
   background-repeat: no-repeat;
   background-size: cover;
+  filter: brightness(85%)
 }
 
 .bg-service {
@@ -147,19 +153,23 @@ html {
   background-image: url(/src/assets/backgrounds/service.png);
   background-repeat: no-repeat;
   background-size: cover;
+  filter: brightness(85%)
 }
+
 
 .bg-contact {
   background-position: bottom;
   background-image: url(/src/assets/backgrounds/contact.png);
   background-repeat: no-repeat;
   background-size: cover;
+  filter: brightness(85%)
 }
 .bg-appointment {
   background-position: bottom;
   background-image: url(/src/assets/backgrounds/appointment.png);
   background-repeat: no-repeat;
   background-size: cover;
+  filter: brightness(85%)
 }
 
 
@@ -169,4 +179,5 @@ html {
   url('/src/assets/backgrounds/appointment.png');
   background-repeat: no-repeat;
   background-size: cover;
+  filter: brightness(85%)
 }

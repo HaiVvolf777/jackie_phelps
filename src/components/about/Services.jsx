@@ -22,7 +22,7 @@ const Services = () => {
 
     {
       img: "/icons/Colorado State Capitol.svg",
-      heading: "Federal & State Clemency Applications:",
+      heading: "Federal and State Clemency Applications:",
       paragraph: "Advocating for mercy and justice through clemency petitions.",
     },
 

@@ -1,12 +1,28 @@
+import { useEffect } from "react";
+import { IoClose } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 
 const PrivacyPolicy = () => {
+
+      useEffect(() => {
+          window.scrollTo(0, 0);
+        }, []);
+
   return (
     <div className="bg-[#7C98B1] text-gray-800 py-[100px] px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6">
-        <h1 className="text-3xl font-bold text-gray-900 mb-6 text-center">
+
+
+        <div className="flex justify-between">
+          <h1></h1>
+          <h1 className="text-3xl font-bold text-gray-900 mb-6 text-center">
           Privacy Policy
-        </h1>
+          </h1>
+          <Link to="/">
+            <IoClose size={32} />
+          </Link>
+        </div>
 
         <p className="mb-4">
           Jacki Phelps Law maintains strict privacy policies to protect the personal information of our users. This information is never sold, rented, released, or traded to others unless by legal obligation. We guarantee that it will never be shared with third parties for marketing purposes. No mobile information will be shared with third parties/affiliates for marketing/promotional purposes.

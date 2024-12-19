@@ -21,7 +21,7 @@ const Footer = () => {
           </Link>
 
           <div className="col-span-5">
-            <div className="flex flex-col lg:flex-row justify-around items-center gap-4 pb-[40px] px-4 lg:px-32 text-base">
+            <div className="flex flex-col lg:flex-row justify-around items-center gap-4 py-[17px] px-4 lg:px-32 text-base">
               <Link to="/">Home</Link>
               <Link to="/about">About</Link>
               <Link to="/services">Services</Link>
@@ -49,13 +49,13 @@ const Footer = () => {
             <div className="border-t-[1px] border-white">
               <div className="pt-[30px] flex flex-col lg:flex-row  justify-between">
                 <div className="flex flex-col lg:flex-row gap-5 items-center mb-8 lg:mb-0">
-                  <p className="m-0 text-xs lg:text-sm mb-4 lg:mb-0">
-                    ©2024 JackiPhelps Law,LLC. Right reserved.
+                  <p className="m-0 text-xs lg:text-sm mb-4 lg:mb-0 tracking-[1px]">
+                    © 2024 Jacki Phelps Law, LLC. All rights reserved.
                   </p>
-                  <Link to="/privacy" className="text-xs lg:text-sm underline">
+                  <Link to="/privacy" className="text-xs lg:text-sm underline tracking-[1px]">
                     Privacy Policy
                   </Link>
-                  <Link to="terms" className="text-xs lg:text-sm underline">
+                  <Link to="terms" className="text-xs lg:text-sm underline tracking-[1px]">
                     Terms of Service
                   </Link>
                 </div>

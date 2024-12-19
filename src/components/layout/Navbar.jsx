@@ -60,18 +60,11 @@ const Navbar = () => {
             </Link>
           ))}
           <Link to="/appointment"></Link>
-          <a
-            href="#"
-            className="w-full text-center bg-[#39648C] text-white px-6 py-2  hover:scale-105 transition-all duration-500"
-            onClick={(e) => {
-              e.preventDefault(); // Prevent default anchor behavior
-              Calendly.initPopupWidget({
-                url: "https://calendly.com/haider-galixo",
-              });
-            }}
-          >
+          <Link
+to='/appointment'
+            className="w-full text-center bg-[#39648C] text-white px-6 py-2  hover:scale-105 transition-all duration-500" >
       Book Your Consultation
-          </a>
+          </Link>
         </div>
 
         <div className="-mr-2 flex items-center lg:hidden">

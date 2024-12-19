@@ -17,10 +17,10 @@ const Home = () => {
             <div className='container mx-auto py-12'>
 
                 <div className='hidden lg:flex justify-between text-black font-light'>
-                    <Link to='/' className='flex gap-2 items-center'>
+                    <Link to='/' className='flex gap-2 items-center tracking-[1px]'>
                         <FaChevronLeft /> {" "}  HOME
                     </Link>
-                    <Link to='/services' className='flex gap-2 items-center'>
+                    <Link to='/services' className='flex gap-2 items-center tracking-[1px]'>
                         ADVOCACY {" "} <FaChevronRight />
                     </Link>
                 </div>
