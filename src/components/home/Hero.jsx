@@ -17,12 +17,12 @@ const Hero = () => {
 
     // Words with corresponding links
     const wordsWithLinks = location.pathname === '/contact'
-        ? [{ word: 'CONTACT US', link: '/contact' }]
+        ? [{ word: 'Contact Us', link: '/contact' }]
         : [
-            { word: 'JUSTICE', link: '/home' },
-            { word: 'ADVOCACY', link: '/services' },
-            { word: 'POWER', link: '/about' },
-            { word: 'HEART', link: '/appointment' },
+            { word: 'Justice', link: '/home' },
+            { word: 'Advocacy', link: '/services' },
+            { word: 'Power', link: '/about' },
+            { word: 'Heart', link: '/appointment' },
         ];
 
     const [backgroundClass, setBackgroundClass] = useState(defaultBackgroundClass);
