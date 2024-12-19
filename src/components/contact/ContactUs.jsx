@@ -28,9 +28,9 @@ const ContactForm = () => {
 
   return (
     <>
-      <div className="py-32 container mx-auto px-4 bg-[#39648C] my-24">
+      <div className="py-[60px] container mx-auto px-4 bg-[#39648C] my-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <div className="flex flex-col items-start justify-center px-4  lg:px-32">
+          <div className="flex flex-col items-start justify-center px-4 pl-0 lg:pl-16 pr-0 lg:pr-40 font-bold font-copperplate">
             <div className="flex items-center space-x-3 text-[#ffff] text-base lg:text-xl" >
               <span>EMAIL</span>
               <a href="mailto:info@jackiphelps.com">info@jackiphelps.com</a>
@@ -58,7 +58,7 @@ const ContactForm = () => {
                   <input
                     type="text"
                     id="firstName"
-                    className="border-b border-[#ffffff] p-3 bg-transparent text-white"
+                    className="border-b border-[#ffffff] p-3 bg-transparent text-white h-[30px]"
                     value={formData.firstName}
                     onChange={handleChange}
                     required
@@ -72,7 +72,7 @@ const ContactForm = () => {
                   <input
                     type="text"
                     id="lastName"
-                    className="border-b border-[#ffffff] p-3 bg-transparent text-white"
+                    className="border-b border-[#ffffff] p-3 bg-transparent text-white h-[30px]"
                     value={formData.lastName}
                     onChange={handleChange}
                     required
@@ -87,7 +87,7 @@ const ContactForm = () => {
                 <input
                   type="tel"
                   id="phoneNumber"
-                  className="border-b border-[#ffffff] p-3 bg-transparent text-white"
+                  className="border-b border-[#ffffff] p-3 bg-transparent text-white h-[30px]"
                   value={formData.phoneNumber}
                   onChange={handleChange}
                   required
@@ -101,7 +101,7 @@ const ContactForm = () => {
                 <input
                   type="email"
                   id="email"
-                  className="border-b border-[#ffffff] p-3 bg-transparent text-white"
+                  className="border-b border-[#ffffff] p-3 bg-transparent text-white h-[30px]"
                   value={formData.email}
                   onChange={handleChange}
                   required
@@ -114,7 +114,7 @@ const ContactForm = () => {
                 </label>
                 <textarea
                   id="message"
-                  className="border-b border-[#ffffff] p-3 bg-transparent text-white"
+                  className="border-b border-[#ffffff] p-3 bg-transparent text-white h-[30px]" 
                   rows="1"
                   value={formData.message}
                   onChange={handleChange}
@@ -125,7 +125,7 @@ const ContactForm = () => {
               <div className="flex items-center justify-center lg:justify-start">
                 <button
                   type="submit"
-                  className="bg-white text-black px-6 py-3 "
+                  className="bg-white text-black px-12 py-3 "
                 >
                   Submit
                 </button>

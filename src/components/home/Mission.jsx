@@ -12,7 +12,7 @@ const Mission = () => {
                 <div className='container mx-auto py-[100px]'>
                     <div className='grid grid-cols-1 lg:grid-cols-2 gap-x-20 items-center'>
                         <div>
-                            <h1 className="font-medium text-3xl lg:text-5xl mb-[38px]">
+                            <h1 className="font-medium text-3xl lg:text-5xl mb-[38px] tracking-[5px]">
                                 OUR MISSION
                             </h1>
                             {paragraphs.map((paragraph, index) => (

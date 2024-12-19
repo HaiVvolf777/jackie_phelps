@@ -18,7 +18,7 @@ const Press = () => {
     <>
       <div className="container mx-auto py-[100px] px-4">
         <div>
-          <h1 className="text-[#39648C] font-medium text-3xl lg:text-5xl mb-12">
+          <h1 className="text-[#39648C] font-medium text-3xl lg:text-5xl mb-12 tracking-[5px]">
             Press
           </h1>
         </div>

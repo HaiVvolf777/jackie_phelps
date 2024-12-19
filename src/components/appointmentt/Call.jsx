@@ -6,7 +6,7 @@ const Call = () => {
     <>
       <div className="bg-appointmentt py-[200px] px-4">
         <div className="flex flex-col gap-4 items-center">
-          <h1 className=" text-center font-medium text-3xl lg:text-5xl text-[#39648C] ">
+          <h1 className=" text-center font-medium text-3xl lg:text-5xl text-[#39648C] tracking-[5px]">
             Schedule Your Consultation Today
           </h1>
           <p className="text-xl text-center my-4 text-black w-full lg:w-[80%] font-neue ">

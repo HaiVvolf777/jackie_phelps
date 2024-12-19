@@ -14,7 +14,7 @@ const OurServices = () => {
                         </div>
 
                         <div>
-                            <h1 className="font-medium text-3xl lg:text-5xl mb-[38px]">
+                            <h1 className="font-medium text-3xl lg:text-5xl mb-[38px] tracking-[5px]">
                                 OUR SERVICES
                             </h1>
                             {/* Render each paragraph using map */}

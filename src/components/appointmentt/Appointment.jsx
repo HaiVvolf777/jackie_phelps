@@ -1,3 +1,4 @@
+
 import Slider from "react-slick";
 import "./Testimonial.css";
 
@@ -63,17 +64,23 @@ any violence. Never underestimate her punch in such a small package. I will alwa
     },
   ];
 
+  const renderStars = (count) => {
+    return Array(count)
+      .fill(0)
+      .map((_, i) => <img src="/stars.svg" key={i} />);
+  };
+
   return (
     <>
       <div className="relative bg-[#39648C]">
         <div className="container mx-auto px-[30px] py-[100px]">
           <div className="flex flex-col items-center">
-            <h1 className="text-4xl lg:text-5xl font-bold">Clients Stories</h1>
-            <p className="my-8 font-neue">Real stories. Real impact.</p>
-            <h1 className="text2xl lg:text-3xl font-bold">
+            <h1 className="text-2xl lg:text-4xl font-bold tracking-[5px]">Clients Stories</h1>
+            <p className="my-4 font-neue text-sm">Real stories. Real impact.</p>
+            <h1 className="text-2xl lg:text-2xl font-bold tracking-[5px]">
               Your Story Could Be Next
             </h1>
-            <p className="my-8 w-full lg:w-[60%] text-center font-neue">
+            <p className="my-4 w-full lg:w-[60%] text-sm text-center font-neue">
               At Jacki Phelps Law, we measure success by the lives we touch. If
               you or your loved one are seeking justice, let us help you rewrite
               your story.
@@ -98,17 +105,21 @@ any violence. Never underestimate her punch in such a small package. I will alwa
                         />
 
                         <div className="flex flex-col items-start gap-1">
-                          <h3 className="font-semibold text-white text-lg text-center ">
+                          <h3 className="font-semibold text-white text-base text-center ">
                             {item.name}
                           </h3>
-                          <h3 className="font-semibold text-white text-lg text-center font-neue">
+                          <h3 className=" text-white text-sm text-center font-neue">
                             {item.type}
                           </h3>
+                          <div className="flex gap-x-1 mt-2">
+                        {renderStars(item.review)}
+                      </div>
                         </div>
                       </div>
                       <h1 className="font-normal font-neue text-[#ffffff] text-sm text-start mb-2 ">
                         {item.description}
                       </h1>
+
                     </div>
                   </div>
                 ))}
