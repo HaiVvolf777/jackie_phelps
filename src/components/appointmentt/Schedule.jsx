@@ -5,7 +5,7 @@ const Schedule = () => {
             <div className="container mx-auto text-black py-[100px] px-4">
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-8 items-center">
                     <div className="col-span-2">
-                        <h1 className="text-[#39648C] text-5xl font-semibold mb-4 tracking-[5px]">
+                        <h1 className="text-[#39648C] text-4xl font-semibold mb-4 tracking-[5px]">
                             Schedule a Consultation
                         </h1>
                         <h2 className="text-[#39648C] text-2xl mb-4">
@@ -28,7 +28,7 @@ const Schedule = () => {
                                 Outline potential strategies for moving forward.
                             </li>
                         </ul>
-                        <h1 className="text-[#39648C] text-4xl font-bold mb-4 tracking-[5px] ">
+                        <h1 className="text-[#39648C] text-5xl font-bold mb-4 tracking-[5px] ">
                             How It Works
                         </h1>
 
