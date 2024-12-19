@@ -45,8 +45,8 @@ const Services = () => {
     <div className="pb-8 px-4">
       <div className="container mx-auto text-white relative">
         <div className="px-4 ">
-          <h2 className="font-medium text-3xl lg:text-4xl pt-24  pb-4 text-[#39648C] uppercase text-center tracking-[5px]">
-            Core Services Include
+          <h2 className="font-bold text-2xl lg:text-4xl pt-24  pb-4 text-[#39648C] uppercase text-center tracking-[5px]">
+          <span className="text-2xl lg:text-[40px]">C</span>ore <span className="text-2xl lg:text-[40px]">S</span>ervices <span className="text-2xl lg:text-[40px]">I</span>nclude
           </h2>{" "}
         </div>
 
