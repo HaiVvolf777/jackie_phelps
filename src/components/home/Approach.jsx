@@ -30,7 +30,7 @@ function Approach() {
     <div className="container mx-auto py-[100px] px-4">
       <div className="px-4 mb-16">
         <h1 className="font-medium text-3xl lg:text-5xl text-[#39648C] tracking-[5px]">
-          OUR APPROACH
+          Our Approach
         </h1>
         <p className="text-xs font-neue lg:text-base text-[#39648C] font-normal w-full lg:w-[45%] mt-[40px]">
           At Jacki Phelps Law, we believe that justice isn’t just about winning
@@ -52,7 +52,7 @@ function Approach() {
               </div>
 
               {/* Feature Description */}
-              <p className="font-semibold text-[#39648C] text-base text-start pr-[68px]">
+              <p className="font-semibold text-[#39648C] text-base text-start pr-[32px]">
                 {feature.description}
               <div className="w-[70px] mt-[5px] h-[1.2px] bg-[#39648C]"> </div>
               </p>

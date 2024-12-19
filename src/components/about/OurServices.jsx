@@ -15,7 +15,7 @@ const OurServices = () => {
 
                         <div>
                             <h1 className="font-medium text-3xl lg:text-5xl mb-[38px] tracking-[5px]">
-                                OUR SERVICES
+                                Our Services
                             </h1>
                             {/* Render each paragraph using map */}
                             {paragraphs.map((paragraph, index) => (

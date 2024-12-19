@@ -13,7 +13,7 @@ const Mission = () => {
                     <div className='grid grid-cols-1 lg:grid-cols-2 gap-x-20 items-center'>
                         <div>
                             <h1 className="font-medium text-3xl lg:text-5xl mb-[38px] tracking-[5px]">
-                                OUR MISSION
+                                Our Mission
                             </h1>
                             {paragraphs.map((paragraph, index) => (
                                 <p key={index} className="text-sm lg:text-sm mb-4 font-neue">
