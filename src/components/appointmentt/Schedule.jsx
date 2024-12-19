@@ -14,7 +14,7 @@ const Schedule = () => {
                         <p className="mb-8 font-neue">
                             At Jacki Phelps Law, we understand that navigating the legal system can be overwhelming. Whether you’re seeking post-conviction relief, clemency, or representation for a loved one, we’re here to provide clarity, guidance, and hope.
                         </p>
-                        <h2 className="text-[#39648C] text-2xl mb-4 font-medium">
+                        <h2 className="text-[#39648C] text-2xl mb-4 ">
                             Our consultation process is designed to:
                         </h2>
                         <ul className="mb-8 text-base font-neue">
