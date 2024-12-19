@@ -22,7 +22,7 @@ const Serivce = () => {
                     <Link to='/home' className='flex gap-2 items-center'>
                         <FaChevronLeft /> {" "}  JUSTICE
                     </Link>
-                    <Link to='/appointment' className='flex gap-2 items-center'>
+                    <Link to='/about' className='flex gap-2 items-center'>
                         POWER {" "} <FaChevronRight />
                     </Link>
                 </div>
