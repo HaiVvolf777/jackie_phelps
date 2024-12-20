@@ -52,9 +52,15 @@ function Approach() {
               </div>
 
               {/* Feature Description */}
-              <p className="font-semibold text-[#39648C] text-base text-start pr-[32px]">
+              <p
+                className={`font-semibold text-[#39648C] text-base text-start  ${
+                  index === 3 ? "pr-[32px]" : "pr-0"
+                }`}
+              >
                 {feature.description}
-              <div className="w-[70px] mt-[5px] h-[1.2px] bg-[#39648C]"> </div>
+                <div className="w-[70px] mt-[5px] h-[1.2px] bg-[#39648C]">
+                  {" "}
+                </div>
               </p>
 
               {/* Feature Detail */}
