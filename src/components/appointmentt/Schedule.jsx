@@ -34,15 +34,15 @@ const Schedule = () => {
 
                         <ul className="mb-4 text-base font-neue">
                             <li>
-                                <strong className="font-medium">1. Initial Consultation:{" "}</strong>
+                                <strong className="font-semibold">1. Initial Consultation:{" "}</strong>
                                 Book a 60-minute consultation to discuss your case and legal goals.
                             </li>
                             <li>
-                                <strong className="font-medium">2. Expert Review:{" "}</strong>
+                                <strong className="font-semibold">2. Expert Review:{" "}</strong>
                                 Jacki will personally review your case details and develop a tailored approach to meet your needs.
                             </li>
                             <li>
-                                <strong className="font-medium">3. Next Steps:{" "}</strong>
+                                <strong className="font-semibold">3. Next Steps:{" "}</strong>
                                 Gain insight into the legal process and how we can advocate for you.
                             </li>
                         </ul>

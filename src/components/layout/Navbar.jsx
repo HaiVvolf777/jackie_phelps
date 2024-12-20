@@ -50,7 +50,7 @@ const Navbar = () => {
               to={`/${section}`}
               className={
                 location.hash.includes(section)
-                  ? "px-3 py-2 select-none text-[#fff] font-medium transition-colors duration-300"
+                  ? "px-3 py-2 select-none text-[#fff] font-semibold transition-colors duration-300"
                   : "px-3 py-2 select-none text-[#39648C] font-normal hover:text-[#fff] transition-colors duration-300"
               }
               key={section}
@@ -89,7 +89,7 @@ to='/appointment'
             <Link
               to={`/${item}`}
               onClick={handleLinkClick}
-              className="px-3 py-2 text-[#39648C] font-medium transition duration-300 ease-in-out"
+              className="px-3 py-2 text-[#39648C] font-semibold transition duration-300 ease-in-out"
               key={item}
             >
               {item.charAt(0).toUpperCase() + item.slice(1)}
