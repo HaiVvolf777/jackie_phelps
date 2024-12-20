@@ -7,7 +7,7 @@ function Approach() {
       image: "/Trust.svg",
     },
     {
-      description: "Expert Legal Research & Strategy:",
+      description: "Expert Legal Research and Strategy:",
       detail:
         "With a proven track record in case law research and appellate litigation, we craft compelling arguments that drive results.",
       image: "/Popular Man.svg",
